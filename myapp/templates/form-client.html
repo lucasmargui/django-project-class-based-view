@@ -1,0 +1,49 @@
+{% extends 'base.html' %} 
+
+{% block title %}Cadastrar Cliente{% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container-content ">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <div class="card">
+                
+                <!-- <img class="card-img-left example-card-img-responsive" src="{% static 'images/client.jpg' %}"/> -->
+                <div class="card-body">
+
+                    <div class="row" > 
+                        <div class="col-6" >
+                        
+                            <img  class="img-fluid"  src="{% static 'images/client.jpg' %}"/> 
+    
+                        </div>
+                        <div class="col-6">
+
+                            <div class="row justify-content-center">
+                                <form   class="col-10" action="{% url 'client-create' %}"  >
+                                    {% csrf_token %}
+                                    <h3>Cadastrar Cliente</h3>
+                                    {% for field in form %}
+                                    <div class="mt-3">
+                                        {{field.label}}
+                                        {{field}}
+                                    </div>
+                                    {% endfor %}
+                                    <input type="submit" class="btn btn-primary mt-3" value="Salvar">
+                                </form> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div> 
+        </div>
+    </div>
+
+</div>          
+
+{% endblock %}
