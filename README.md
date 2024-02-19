@@ -1,10 +1,15 @@
 <H1 align="center">Estrutura de Crud utilizando Class-based views</H1>
 <p align="center">🚀 Projeto de criação de uma estrutura de crud utilizando Class-based views do Django para referências futuras</p>
 
+# Projeto 
+Este projeto utiliza Django_Projeto_AlguelCarros como base, modificando as views para utilização de class-based views.
+
 ## Recursos Utilizados
 
 * Django 5.0.2
 * Python 3.10
+
+
 
 ## Views
 Onde será criado as classes utilizando um model para recuperar os dados ou utilizando um form para criação dos formulários.
