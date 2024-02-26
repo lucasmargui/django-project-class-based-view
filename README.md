@@ -12,6 +12,10 @@ Este projeto utiliza Django_Projeto_AlguelCarros como base, modificando as views
 
 
 ## Views
+
+<details>
+  <summary>Clique para mostrar conteúdo</summary>
+  
 Onde será criado as classes utilizando um model para recuperar os dados ou utilizando um form para criação dos formulários.
 
 
@@ -44,6 +48,10 @@ class ClientCreate(CreateView):
     def form_valid(self, form):
         return super(ClientCreate, self).form_valid(form)
 ```
+
+</details>
+
+
 
 
 
