@@ -2,7 +2,7 @@
 <p align="center">🚀 Project to create a crud structure using Django's Class-based views for future references</p>
 
 # Project
-This project uses Django_Projeto_AlguelCarros as a base, modifying the views to use class-based views.
+This project uses Django_Projeto_AluguelCarros as a base, modifying the views to use class-based views.
 
 ## Resources Used
 
